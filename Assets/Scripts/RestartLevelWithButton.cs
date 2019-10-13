@@ -5,13 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RestartLevelWithButton : MonoBehaviour
 {
-
     [SerializeField]
-    KeyCode KeyRestart;
-
-    void Update()
+    KeyCode keyRestart;
+	
+	void Update ()
     {
-        if (Input.GetKey(KeyRestart))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);   
-    }
+        if (Input.GetKey(keyRestart))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+	}
 }

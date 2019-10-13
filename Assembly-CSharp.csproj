@@ -56,8 +56,11 @@
      <Compile Include="Assets\Scripts\AddConstantVelocity.cs" />
      <Compile Include="Assets\Scripts\AddPlayerControledVelocity.cs" />
      <Compile Include="Assets\Scripts\CopyPosition.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnClick.cs" />
+     <Compile Include="Assets\Scripts\LoadLevelOnCollision.cs" />
      <Compile Include="Assets\Scripts\RestartLevelOnCollision.cs" />
      <Compile Include="Assets\Scripts\RestartLevelWithButton.cs" />
+     <Compile Include="Assets\Scripts\TwoPlayers.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Software/unity/KG_lab3/Lab3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
